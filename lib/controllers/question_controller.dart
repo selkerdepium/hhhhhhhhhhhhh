@@ -43,7 +43,7 @@ class QuestionController extends GetxController
   int _correctAns;
   int get correctAns => this._correctAns;
 
-  int _selectedAns;
+  int _correctAns = 0;
   int get selectedAns => this._selectedAns;
 
   // for more about obs please check documentation
