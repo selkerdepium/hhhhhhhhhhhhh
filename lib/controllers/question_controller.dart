@@ -13,11 +13,17 @@ class QuestionController extends GetxController
   AnimationController _animationController = AnimationController(
   // Specify the necessary parameters for the AnimationController constructor
 );
-  Animation _animation;
+  Animation _animation = Animation(
+  // Specify the necessary parameters for the Animation constructor
+);
+
   // so that we can access our animation outside
   Animation get animation => this._animation;
 
-  PageController _pageController;
+  PageController _pageController = PageController(
+  // Specify the necessary parameters for the PageController constructor
+);
+
   PageController get pageController => this._pageController;
 
   List<Question> _questions = sample_data
