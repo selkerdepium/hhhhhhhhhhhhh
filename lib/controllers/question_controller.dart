@@ -10,7 +10,9 @@ class QuestionController extends GetxController
     with SingleGetTickerProviderMixin {
   // Lets animated our progress bar
 
-  AnimationController _animationController;
+  AnimationController _animationController = AnimationController(
+  // Specify the necessary parameters for the AnimationController constructor
+);
   Animation _animation;
   // so that we can access our animation outside
   Animation get animation => this._animation;
