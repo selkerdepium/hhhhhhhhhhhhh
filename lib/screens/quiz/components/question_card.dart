@@ -32,7 +32,7 @@ class QuestionCard extends StatelessWidget {
             style: Theme.of(context)
                 .textTheme
                 .headline6
-                .copyWith(color: kBlackColor),
+                ?.copyWith(color: kBlackColor),
           ),
           SizedBox(height: kDefaultPadding / 2),
           ...List.generate(
